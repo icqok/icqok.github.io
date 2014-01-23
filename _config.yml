@@ -1,3 +1,5 @@
 name: Edan Eling
 markdown: redcarpet
 pygments: true
+permalink: /:year/:month/:day/:title/
+paginate: 5
