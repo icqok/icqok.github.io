@@ -40,7 +40,7 @@ header, article, footer { width: 500px; padding-left: 20px; padding-right: 20px;
 article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #comment-title { margin-left: 0px; }
 header #title { margin-left:50px; }
 #menu { top: 0; right: 20px; position: absolute; margin-top: 8px; }
-        #menu a { margin-left: 20px; }
+	#menu a { margin-left: 20px; }
 #comicss{display:none;}
 article #page-title { margin-bottom: 10px; border-bottom: 2px solid #555; color:#CCC; }
 .right { text-align: right; }
@@ -69,8 +69,8 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 /*index*/
 .post { position: relative; }
 .post p {margin-bottom:0;}
-        .post h2 { border: none; margin-bottom: 0; }
-        .post ul.meta { width: auto; margin-bottom: 1em; position: relative; top: 0; text-align: left; }
+	.post h2 { border: none; margin-bottom: 0; }
+	.post ul.meta { width: auto; margin-bottom: 1em; position: relative; top: 0; text-align: left; }
 .thumbnail { display:none; }
 /*pagnav*/
 #pagnav { position: relative; text-align: center; }
@@ -78,13 +78,13 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 .next { right: 0; }
 .prev { left: 0; }
 * html body article #pagnav { text-align: center; }
-        * html body article #pagnav .prev { left: -200px; }
-        * html body article #pagnav .next { right: 20px; }
-        * html body article #pagnav .totpages { padding-left: 200px; }
+	* html body article #pagnav .prev { left: -200px; }
+	* html body article #pagnav .next { right: 20px; }
+	* html body article #pagnav .totpages { padding-left: 200px; }
 * :first-child+html body article #pagnav { text-align: center; }
-        * :first-child+html body article #pagnav .prev { left: -200px; }
-        * :first-child+html body article #pagnav .next { right: 20px; }
-        * :first-child+html body article #pagnav .totpages { padding-left: 200px; }
+	* :first-child+html body article #pagnav .prev { left: -200px; }
+	* :first-child+html body article #pagnav .next { right: 20px; }
+	* :first-child+html body article #pagnav .totpages { padding-left: 200px; }
 /*logo*/
 #logo { position: absolute; left: 20px; top: -20px; max-width: 40px; }
 * html body header #logo { width: 40px; }
@@ -148,12 +148,12 @@ ul.meta li { display: block; margin-right:0; }
 .post ul.meta li { display: inline; margin-right:5px; }
 #social { position: absolute; top: 53px; display: block; left: 55px; }
 ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px; }
-        ul#social li  a.github { background: url("/images/socialicon.png") no-repeat left top; }
-        ul#social li  a.twitter { background: url("/images/socialicon.png") no-repeat left -68px; }
-        ul#social li  a.tumblr { background: url("/images/socialicon.png") no-repeat left -133px; }
-        ul#social li  a.github:hover { background-position: left -192px; }
-        ul#social li  a.twitter:hover { background-position: left -260px; }
-        ul#social li  a.tumblr:hover { background-position: left -325px; }
+	ul#social li  a.github { background: url("/images/socialicon.png") no-repeat left top; }
+	ul#social li  a.twitter { background: url("/images/socialicon.png") no-repeat left -68px; }
+	ul#social li  a.tumblr { background: url("/images/socialicon.png") no-repeat left -133px; }
+	ul#social li  a.github:hover { background-position: left -192px; }
+	ul#social li  a.twitter:hover { background-position: left -260px; }
+	ul#social li  a.tumblr:hover { background-position: left -325px; }
 .full { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 12px; margin-left: 0; background-size: 100% }
 #logo { left: 60px; top: -20px; max-width: 60px; }
 }
