@@ -1,4 +1,2 @@
 Hallo Stalker!
 ==============
-
-Lalat Malam
