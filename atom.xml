@@ -5,21 +5,21 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Sarimin</title>
- <link href="http://timbul.github.com/atom.xml" rel="self"/>
- <link href="http://timbul.github.com/"/>
+ <link href="http://icqok.github.io/atom.xml" rel="self"/>
+ <link href="http://icqok.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://timbul.github.com/</id>
+ <id>http://icqok.github.io/</id>
  <author>
-   <name>Heru</name>
-   <email>heru.openid@gmail.com</email>
+   <name>Riky Rizkiyana</name>
+   <email>rizkiyana.riky@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://timbul.github.com{{ post.url }}"/>
+   <link href="http://icqok.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://timbul.github.com{{ post.id }}</id>
+   <id>http://icqok.github.io{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
