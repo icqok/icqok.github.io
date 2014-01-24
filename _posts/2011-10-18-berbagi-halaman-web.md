@@ -1,9 +1,6 @@
 ---
 title: Berbagi Halaman Web dengan bo.lt
 layout: post
-category: Blogging
-excerpt: "Membuat dan berbagi replika halaman web dengan bo.lt."
-thumbnail: "/images/noimage.png"
 ---
 
 [bo.lt](http://bo.lt/) merupakan layanan untuk berbagi halaman web, caranya cukup mudah, tinggal copy paste link halaman web, lalu bo.lt akan membuat replika halaman tersebut, seperti web archive.
