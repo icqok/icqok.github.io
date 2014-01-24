@@ -26,6 +26,14 @@
 			<h1 id="page-title">{{ page.title }}</h1>
 			{{ content }}
 			<time data-icon="b" datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>
+    <script type="text/javascript">
+        var disqus_shortname = 'edaneling';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
 			<nav id="pagnav">
 				<a href="/" data-icon="c" class="pulang" title="Archives">Archives</a>{% if page.previous.url %}
 				<a href="{{page.previous.url}}" class="next" data-icon="e" title="{{page.previous.title}}">Next</a>{% endif %}{% if page.next.url %}
