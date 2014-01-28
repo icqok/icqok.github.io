@@ -47,6 +47,7 @@ footer{padding:30px 0 0}
 .next, .prev{top:-9px; position:absolute; line-height:1.4}
 .next{right:0}
 .prev{left:0}
+#disqus_thread{margin-top:30px;}
 .gambar, .vidyou, .vidvim{margin-bottom:24px}
 figcaption{padding:10px 2px; position:relative; font-size:12px; color:#ddd; margin:-49px auto 0; max-width:420px; background-color:#006e6e; background-color:rgba(0,0,0,0.5)}
 .first{margin:0 16px 10px 130px; float:left}

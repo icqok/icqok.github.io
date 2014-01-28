@@ -24,8 +24,8 @@
 		<article>
 			<section class="wrap">
 			<h1 id="page-title">{{ page.title }}</h1>
-			<time data-icon="b" datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>
-			{{ content }}			
+			{{ content }}		
+			<time data-icon="b" datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>			
     <div id="disqus_thread"></div>
 <script type="text/javascript">
 var disqus_shortname = 'edaneling';
