@@ -15,8 +15,8 @@ a, a:visited{color:#eee; text-decoration:none; outline:0; border-bottom:1px soli
 a:hover, a:focus{opacity:0.7}
 p a, p a:visited{line-height:inherit}
 footer a, footer  a:visited{color:#47a3da; text-decoration:none; outline:0; border-bottom:1px solid #47a3da}
-#archives a, #archives a:visited{border-bottom:none}
-#archives a:hover, #archives a:focus{opacity:1}
+#artikel a, #artiikel a:visited{border-bottom:none}
+#artikel a:hover, #artikel a:focus{opacity:1}
 ul, ol{margin-bottom:20px}
 ul{list-style:none outside}
 ol{list-style:decimal}
@@ -34,11 +34,11 @@ article{padding:50px 0; background-color:#47a3da; color:#eee}
 .vidvim embed, .vidvim iframe, .vidvim object, .vidvim video, .vidyou embed, .vidyou iframe, .vidyou object, .vidyou video{top:0; left:0; width:100%; height:100%; position:absolute}
 .gambar, figcaption{text-align:center}
 .gambar img{max-width:100%}
-#archives ul li{clear:both; line-height:18px; margin-bottom:30px}
+#artikel ul li{clear:both; line-height:18px; margin-bottom:30px}
 .list{color:#ddd; line-height:18px; margin-bottom:2px; margin-left:0; position:relative;}
-#archives ul li time{float:right; margin-bottom:2px}
-.list, #archives ul li time{padding:12px 20px; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
-.list:hover, #archives ul li time:hover{background-color: #006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
+#artikel ul li time{float:right; margin-bottom:2px}
+.list, #artikel ul li time{padding:12px 20px; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
+.list:hover, #artikel ul li time:hover{background-color: #006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
 footer p{font-size:12px}
 footer{padding:30px 0 0}
 #pagnav{margin-top:50px; position:relative; text-align:center}
@@ -90,9 +90,9 @@ audio{width:100%;}
  @media only screen and (min-width:480px) and (max-width:767px){
  .wrap{width:320px;}
 #page-title{font-size:32px}
-#archives ul li time{display:none}
+#artikel ul li time{display:none}
 .list{margin-right:0; float:none}
-#archives ul li{margin-bottom:0}
+#artikel ul li{margin-bottom:0}
 .next, .prev{top:-4px}
 #pagnav a, #pagnav a:visited{padding:5px 10px}
 .list:after {display:inline;}
@@ -101,9 +101,9 @@ audio{width:100%;}
  body{font-size:14px}
 .wrap{width:210px;}
 #page-title{font-size:28px; text-align:center;}
-#archives ul li time{display:none}
+#artikel ul li time{display:none}
 .list{margin-right:0; float:none; padding:10px 15px 10px 10px}
-#archives ul li{margin-bottom:0}
+#artikel ul li{margin-bottom:0}
 .next, .prev{top:-4px}
 .next:after, .prev:before, .beranda:before{display:none;}
 #pagnav a, #pagnav a:visited{padding:5px 10px}
