@@ -1,6 +1,4 @@
-safe: true
-lsi: false
-pygments: true
-baseurl: /icqok.github.io
+name: Edan Eling
 markdown: rdiscount
-permalink: /docs/:title.html
+pygments: true
+permalink: /:title/
