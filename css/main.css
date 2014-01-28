@@ -6,7 +6,7 @@ blockquote, q{quotes:none}
 blockquote:before, blockquote:after, 
 q:before, q:after{content:''; content:none}
 table{border-collapse:collapse; border-spacing:0}
-body{background:#fff; font:16px/1.6 'Open Sans', sans-serif; font-weight:400; color:#47a3da;}
+body{background:#fff; font:16px/1.6 'Lato', sans-serif; font-weight:400; color:#47a3da;}
 i{font-style:italic}
 b{font-weight:bold}
 p{margin:0 0 24px 0}
@@ -24,7 +24,7 @@ li{line-height:inherit; margin-bottom:12px}
 li p{line-height:21px}
 img{max-width:100%; height:auto}
 header{background-color:#fff}
-#judul{padding:15px 0;}
+#judul{font-family: 'Pacifico', cursive; padding:15px 0;}
 #judul a, #judul a:visited { margin: 0; color: #47a3da;font-size: 42px;font-weight:300; line-height: 1;border:0;}
 #judul a:hover, #judul a:focus{opacity:1}
 article{padding:50px 0; background-color:#47a3da; color:#eee}
@@ -35,8 +35,8 @@ article{padding:50px 0; background-color:#47a3da; color:#eee}
 .gambar, figcaption{text-align:center}
 .gambar img{max-width:100%}
 #archives ul li{clear:both; line-height:18px; margin-bottom:30px}
-.list{color:#ddd; float:left; line-height:18px; margin-bottom:2px; margin-left:0; margin-right:2px; position:relative;}
-#archives ul li time{color:#ddd; float:left; margin-bottom:2px}
+.list{color:#ddd; line-height:18px; margin-bottom:2px; margin-left:0; position:relative;}
+#archives ul li time{float:right; margin-bottom:2px}
 .list, #archives ul li time{padding:12px 20px; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
 .list:hover, #archives ul li time:hover{background-color: #006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
 footer p{font-size:12px}
@@ -88,7 +88,7 @@ audio{width:100%;}
  .wrap{width:580px}
 }
  @media only screen and (min-width:480px) and (max-width:767px){
- .wrap{width:420px;}
+ .wrap{width:320px;}
 #page-title{font-size:32px}
 #archives ul li time{display:none}
 .list{margin-right:0; float:none}
