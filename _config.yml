@@ -1,4 +1,4 @@
-name: Edan Eling
+name: Title Blog
 markdown: rdiscount
 pygments: true
 permalink: /:title/
