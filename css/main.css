@@ -6,7 +6,7 @@ blockquote, q{quotes:none}
 blockquote:before, blockquote:after, 
 q:before, q:after{content:''; content:none}
 table{border-collapse:collapse; border-spacing:0}
-body{background:#fff; font:16px/1.6 'Open Sans', sans-serif; font-weight:400; color:#008b8b;}
+body{background:#fff; font:16px/1.6 'Open Sans', sans-serif; font-weight:400; color:#47a3da;}
 i{font-style:italic}
 b{font-weight:bold}
 p{margin:0 0 24px 0}
@@ -14,7 +14,7 @@ p img{margin:0}
 a, a:visited{color:#eee; text-decoration:none; outline:0; border-bottom:1px solid #eee}
 a:hover, a:focus{opacity:0.7}
 p a, p a:visited{line-height:inherit}
-footer a, footer  a:visited{color:#008b8b; text-decoration:none; outline:0; border-bottom:1px solid #008b8b}
+footer a, footer  a:visited{color:#47a3da; text-decoration:none; outline:0; border-bottom:1px solid #47a3da}
 #archives a, #archives a:visited{border-bottom:none}
 #archives a:hover, #archives a:focus{opacity:1}
 ul, ol{margin-bottom:20px}
@@ -25,9 +25,9 @@ li p{line-height:21px}
 img{max-width:100%; height:auto}
 header{background-color:#fff}
 #judul{padding:15px 0;}
-#judul a, #judul a:visited { margin: 0; color: #008b8b;font-size: 42px;font-weight:300; line-height: 1;border:0;}
+#judul a, #judul a:visited { margin: 0; color: #47a3da;font-size: 42px;font-weight:300; line-height: 1;border:0;}
 #judul a:hover, #judul a:focus{opacity:1}
-article{padding:50px 0; background-color:#008b8b; color:#eee}
+article{padding:50px 0; background-color:#47a3da; color:#eee}
 #page-title{font-weight:300; margin-bottom:30px; font-size:40px; line-height:1.2}
 .vidyou{height:0; padding-top:25px; padding-bottom:67.5%; margin-bottom:10px; position:relative; overflow:hidden}
 .vidvim{height:0; padding-top:0; padding-bottom:67.5%; margin-bottom:10px; position:relative; overflow:hidden}
