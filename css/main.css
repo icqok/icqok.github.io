@@ -38,7 +38,7 @@ article{padding:50px 0; background-color:#fff;}
 .list{color:#ddd; float:left; line-height:18px; margin-bottom:2px; margin-left:0; margin-right:2px; position:relative;}
 #artikel ul li time{color:#ddd; float:right; margin-bottom:2px}
 .list, #artikel ul li time{padding:12px 20px; background-color:#444444;}
-.list:hover, #artikel ul li time:hover{opacity: 1; background-color:#444444; background-color:rgba(0,0,0,0.2)}
+.list:hover, #artikel ul li time:hover{opacity: 1; background-color:#666666;}
 footer p{font-size:12px}
 footer{padding: 3em 0 1em;background-color:#eeeeee;}
 #pagnav{margin-top:50px; position:relative; text-align:center}
@@ -61,9 +61,6 @@ figcaption:before{   margin-right:10px; speak: none;}
 .prev:before{   margin-right:10px; speak: none; color:#ddd;}
 .next:after{   margin-left:10px; speak: none; color:#ddd;}
 .list:after {position: absolute;right: 10px;speak: none; display:none; color:#ddd;}
-q:before, q:after, time:before, figcaption:before, .beranda:before, .prev:before, .next:after, .list:after{content: attr(data-icon); font-family:icon;font-size:14px;}
-audio{width:100%;}
-@font-face{font-family: 'icon'; src:url('/fonts/icon.eot'); src:url('fonts/icon.eot?#iefix') format('/fonts/embedded-opentype'), url('/fonts/icon.woff') format('woff'), url('/fonts/icon.ttf') format('truetype'), url('/fonts/icon.svg#icon') format('svg'); font-weight: normal; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
 @font-face {
   font-family: 'Lato';
   font-style: normal;
