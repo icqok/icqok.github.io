@@ -34,11 +34,12 @@ article{padding:50px 0; background-color:#47a3da; color:#eee}
 .vidvim embed, .vidvim iframe, .vidvim object, .vidvim video, .vidyou embed, .vidyou iframe, .vidyou object, .vidyou video{top:0; left:0; width:100%; height:100%; position:absolute}
 .gambar, figcaption{text-align:center}
 .gambar img{max-width:100%}
-#artikel ul li{clear:both; line-height:18px; background-color:rgba(0,0,0,0.2)}
+#artikel ul li{line-height:18px; background-color:rgba(0,0,0,0.2)}
 .list{color:#ddd; line-height:18px; margin-bottom:2px; margin-left:0; position:relative;}
 #artikel ul li time{float:right; margin-bottom:2px}
-.list, #artikel ul li time{padding:12px 20px; display: inline-block;}
-.list:hover, #artikel ul li time:hover, #artikel ul li a:hover{background-color: #006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
+.list{padding:12px 20px;}
+#artikel ul li time{padding:12px 20px; display: inline-block;}
+.list:hover, #artikel ul li time:hover, #artikel ul li:hover{background-color: #006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
 footer p{font-size:12px}
 footer{padding:30px 0 0}
 #pagnav{margin-top:50px; position:relative; text-align:center}
@@ -91,7 +92,7 @@ audio{width:100%;}
  .wrap{width:320px;}
 #page-title{font-size:32px}
 #artikel ul li time{display:none}
-.list{margin-right:0; padding: 12px 20px; float:none}
+.list{margin-right:0; padding: 12px 20px; display:0; float:none}
 #artikel ul li{margin-bottom:0}
 .next, .prev{top:-4px}
 #pagnav a, #pagnav a:visited{padding:5px 10px}
