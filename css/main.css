@@ -38,7 +38,7 @@ article{padding:50px 0; background-color:#fff;}
 .list{color:#ddd; float:left; line-height:18px; margin-bottom:2px; margin-left:0; margin-right:2px; position:relative;}
 #artikel ul li time{color:#ddd; float:right; margin-bottom:2px}
 .list, #artikel ul li time{padding:12px 20px; background-color:#444444;}
-.list:hover, #artikel ul li time:hover{opacity: 1; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
+.list:hover, #artikel ul li time:hover{opacity: 1; background-color:#000000; background-color:rgba(0,0,0,0.2)}
 footer p{font-size:12px}
 footer{padding: 3em 0 1em;background-color:#eeeeee;}
 #pagnav{margin-top:50px; position:relative; text-align:center}
@@ -79,9 +79,10 @@ audio{width:100%;}
 .wrap{width:720px; margin-left:auto; margin-right:auto}
 
  @media only screen and (min-width:768px) and (max-width:959px){
- .wrap{width:580px}
+ .wrap{width:700px}
 }
  @media only screen and (min-width:480px) and (max-width:767px){
+ .wrap{width:420px; margin-left:auto; margin-right:auto}
 #page-title{font-size:32px}
 #artikel ul li time{display:none}
 .list{margin-right:0; float:none}
