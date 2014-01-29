@@ -91,7 +91,7 @@ audio{width:100%;}
  .wrap{width:320px;}
 #page-title{font-size:32px}
 #artikel ul li time{display:none}
-.list{margin-right:0; float:none}
+.list{margin-right:0; padding: 12px 20px; float:none}
 #artikel ul li{margin-bottom:0}
 .next, .prev{top:-4px}
 #pagnav a, #pagnav a:visited{padding:5px 10px}
