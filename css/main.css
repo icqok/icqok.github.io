@@ -37,7 +37,7 @@ article{padding:50px 0; background-color:#47a3da; color:#eee}
 #artikel ul li{clear:both; line-height:18px;}
 .list{color:#ddd; line-height:18px; margin-bottom:2px; margin-left:0; position:relative;}
 #artikel ul li time{float:right; margin-bottom:2px}
-.list{padding:12px 20px; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
+.list, #artikel ul li time{padding:12px 20px; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
 .list:hover{background-color: #006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
 footer p{font-size:12px}
 footer{padding:30px 0 0}
