@@ -25,7 +25,7 @@
 			<section class="wrap">
 			<h1 id="page-title">{{ page.title }}</h1>
 			{{ content }}		
-			<time data-icon="b" datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>			
+			<time data-icon="6" datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>			
     <div id="disqus_thread"></div>
 <script type="text/javascript">
 var disqus_shortname = 'edaneling';
@@ -36,9 +36,9 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; var disqus_disable_m
 })();
 </script>
 			<nav id="pagnav">
-				<a href="/" data-icon="c" class="beranda" title="Beranda">Beranda</a>{% if page.previous.url %}
-				<a href="{{page.previous.url}}" class="next" data-icon="e" title="{{page.previous.title}}">Selanjutnya</a>{% endif %}{% if page.next.url %}
-				<a href="{{page.next.url}}" class="prev" data-icon="d" title="{{ page.next.title }}">Sebelumnya</a>{% endif %}
+				<a href="/" data-icon="7" class="beranda" title="Beranda">Beranda</a>{% if page.previous.url %}
+				<a href="{{page.previous.url}}" class="next" data-icon="2" title="{{page.previous.title}}">Selanjutnya</a>{% endif %}{% if page.next.url %}
+				<a href="{{page.next.url}}" class="prev" data-icon="1" title="{{ page.next.title }}">Sebelumnya</a>{% endif %}
 			</nav>
 			</section>
 		</article>
