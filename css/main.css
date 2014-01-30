@@ -48,18 +48,16 @@ blockquote cite,blockquote small{font-style:normal;font-size:.85em}
 *,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .clearfix:before,.entry-content:before{content:"";display:table}
 .clearfix:after,.entry-content:after{content:"";display:table;clear:both}
-.container{position:relative;padding:0 1em}
+.container{margin:0 auto;position:relative;padding:0 1em}
 .colophon{font-size:.875em;margin-bottom:0;padding-bottom:1em;color:#aaa}
-.site-header{background:#818181 url(/images/cover.png) no-repeat center;-webkit-background-size:cover;background-size:cover;text-align:center;padding-top:1.875em;color:#FFF}
-.site-header a{color:#FFF}
-.site-navigation{background:rgba(0,0,0,0.3);margin-top:1.875em}
-.site-navigation a{display:inline-block;line-height:3;font-size:.8125em;text-transform:uppercase;font-weight:700;margin:0 .625em;padding:0 .625em}
-.site-title{font-family: 'Oswald', sans-serif;font-weight:700;text-transform:uppercase;margin-bottom:0;text-shadow:0 1px 2px rgba(0,0,0,0.5);letter-spacing:1px}
-.site-description{margin-bottom:0;font-weight:400}
+.site-header{background:#818181 url(/images/cover.png) no-repeat center;height:25em;-webkit-background-size:cover;background-size:cover;text-align:center;padding-top:10em 0;color:#FFF}
+.site-header a{color:#FFF;}
+.site-header a:hover{color:#555;}
+.site-title{font-family: 'Oswald', sans-serif; font-size:3em; font-weight:700;text-transform:uppercase;margin-bottom:0;text-shadow:0 1px 2px rgba(0,0,0,0.5);letter-spacing:1px}
+.site-description{margin-bottom:0; font-size:1.5em;font-weight:400}
 .content{padding-top:3.125em;padding-bottom:3.125em}
 .content.home{padding:0}
 .content.home article{margin-bottom:0;padding-top:3.125em;padding-bottom:3.125em}
-.content.home article:nth-child(2n){background:#f8f5f0}
 article{margin-bottom:3.125em}
 .post-title{margin-bottom:.25em}
 .post-meta{color:#aaa;margin-bottom:3.125em}
