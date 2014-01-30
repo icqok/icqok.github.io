@@ -24,8 +24,8 @@ li p{line-height:21px}
 img{max-width:100%; height:auto}
 header{background-image:url("/images/cover.png"); height:25em}
 .judul{font-family: 'Oswald', sans-serif; padding:2em 0 0.4em 0; text-align:center;font-size: 3em;font-weight:700;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); text-transform: uppercase;}
-.judul a, .judul a:visited {color: #ffffff;}
-.judul a:hover, .judul a:focus{color:#3aaacf; border:0;}
+.judul a, .judul a:visited {color: #ffffff; border:0;}
+.judul a:hover, .judul a:focus{color:#3aaacf;}
 .deskripsi{text-align:center; color:#ffffff; font-size:1.5em;}
 article{padding:50px 0; background-color:#fff;}
 #page-title{font-weight:300; margin-bottom:30px; color: #A7A0A2; font-size:40px; line-height:1.2}
