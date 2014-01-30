@@ -49,11 +49,11 @@ blockquote cite,blockquote small{font-style:normal;font-size:.85em}
 .clearfix:before,.entry-content:before{content:"";display:table}
 .clearfix:after,.entry-content:after{content:"";display:table;clear:both}
 .container{width:45em;margin-left:auto;margin-right:auto;padding:0}
-.colophon{font-size:.875em;margin-bottom:0;padding-bottom:1em;color:#aaa}
+.colophon{font-size:.875em;color:#aaa}
 .site-header{background:#818181 url(/images/cover.png) no-repeat center;height:25em;-webkit-background-size:cover;background-size:cover;text-align:center;padding-top:9.375em;color:#FFF}
 .site-header a{color:#FFF;}
-.site-header a:hover{color:#555;}
-.site-title{font-family: 'Oswald', sans-serif; font-size:3em; font-weight:700;text-transform:uppercase;margin-bottom:0;text-shadow:0 1px 2px rgba(0,0,0,0.5);letter-spacing:1px}
+.site-header a:hover{color:#ddd;}
+.site-title{font-family: 'Oswald', sans-serif; font-weight:700;text-transform:uppercase;margin-bottom:0;text-shadow:0 1px 2px rgba(0,0,0,0.5);letter-spacing:1px}
 .site-description{font-size:1.25em;margin-top:.5em}
 .content{padding-top:3.125em;padding-bottom:3.125em}
 .content.home{padding:0}
@@ -62,16 +62,36 @@ article{margin-bottom:3.125em}
 .post-title{margin-bottom:.25em}
 .post-meta{color:#aaa;margin-bottom:3.125em}
 .post-meta a:before{content:'\2022';padding-right:.3125em;padding-left:.3125em}
+.entry-content{font-size:1.125em;line-height:1.6}
 .entry-content a:hover{border-bottom:1px solid #3aaacf}
 .entry-content h3{margin-top:1.875em}
 .entry-content iframe,.entry-content img{border:3px solid #aaa}
 p,li{margin-bottom:1em}
 .post-meta a,.navigation span{color:#aaa}
-#page-title{font-weight:300; margin-bottom:30px; color: #A7A0A2; font-size:40px; line-height:1.2}
+#page-title{font-size: 2.5em;font-weight:300; margin-bottom:10px; color: #A7A0A2;line-height:1.2}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+figcaption{padding:10px 2px; position:relative; font-size:12px; color:#ddd; margin:-49px auto 0; max-width:420px; background-color:#006e6e; background-color:rgba(0,0,0,0.5)}
 .vidyou{height:0; padding-top:25px; padding-bottom:67.5%; margin-bottom:10px; position:relative; overflow:hidden}
 .vidvim{height:0; padding-top:0; padding-bottom:67.5%; margin-bottom:10px; position:relative; overflow:hidden}
 .vidvim embed, .vidvim iframe, .vidvim object, .vidvim video, .vidyou embed, .vidyou iframe, .vidyou object, .vidyou video{top:0; left:0; width:100%; height:100%; position:absolute}
-footer{padding: 3em 0 1em;background-color:#eeeeee;}
+footer{padding: 3em 0;background-color:#eeeeee;}
 #pagnav{margin-top:50px; position:relative; text-align:center}
 #pagnav a, #pagnav a:visited{color:#ddd; padding:10px 30px; background-color:#006e6e; background-color:rgba(0,0,0,0.2); border-bottom:none}
 #pagnav a:hover, #pagnav a:focus{background-color: #444444; background-color: rgba(0,0,0,0.2);opacity: 1;}
@@ -92,21 +112,24 @@ footer{padding: 3em 0 1em;background-color:#eeeeee;}
   font-weight: 400;
   src: local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
 }
-@media min-width 300625em {
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 h1{font-size:3em}
 h2{font-size:1.875em;line-height:1}
 h3{font-size:1.5em}
-.entry-content{font-size:1.125em;line-height:1.6}
-.pagination.next{margin-left:.5em}
-}
-@media min-width 48em {
 .container{width:45em;margin-left:auto;margin-right:auto;padding:0}
 .site-header{background-image:url(/images/cover.png);padding-top:9.375em}
 .site-description{font-size:1.25em;margin-top:.5em}
 }
-@media min-width 21875em {
-.img-small{max-width:45%}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
 }
-@media min-width 4375em {
-.img-small{max-width:48%}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
 }
