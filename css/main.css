@@ -23,10 +23,11 @@ ol{list-style:decimal}
 li{line-height:inherit; margin-bottom:12px}
 li p{line-height:21px}
 img{max-width:100%; height:auto}
-header{background-image:url("/images/cover.png"); height:25em}
-#judul{font-family: 'Oswald', sans-serif; padding:10em 0 10em; text-align:center;}
-#judul a, #judul a:visited { margin: 0; color: #ffffff;font-size: 42px;font-weight:700; line-height: 1;border:0; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); text-transform: uppercase;}
-#judul a:hover, #judul a:focus{opacity:1; background-color:rgba(0,0,0,0.2)}
+header{background-image:url("/images/cover.png"); font-family: 'Oswald', sans-serif; height:25em}
+.judul{padding:7em 0; text-align:center;font-size: 3em;font-weight:700;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); text-transform: uppercase;}
+.judul a, .judul a:visited {color: #ffffff;}
+.judul a:hover, .judul a:focus{color:#3aaacf;}
+.deskripsi{padding:5em 0; text-align:center;}
 article{padding:50px 0; background-color:#fff;}
 #page-title{font-weight:300; margin-bottom:30px; color: #A7A0A2; font-size:40px; line-height:1.2}
 .vidyou{height:0; padding-top:25px; padding-bottom:67.5%; margin-bottom:10px; position:relative; overflow:hidden}
@@ -62,10 +63,22 @@ figcaption:before{   margin-right:10px; speak: none;}
 .next:after{   margin-left:10px; speak: none; color:#ddd;}
 .list:after {position: absolute;right: 10px;speak: none; display:none; color:#ddd;}
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(http://themes.googleusercontent.com/static/fonts/ptsans/v6/LKf8nhXsWg5ybwEGXk8UBQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
 }
 @font-face {
   font-family: 'Oswald';
