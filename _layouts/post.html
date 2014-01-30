@@ -16,17 +16,27 @@
 		<![endif]-->
 	</head>
 	<body>
-		<header>
-			<section class="wrap">
-				<h2 class="judul"><a href="/" title="Edan Eling">Title Blog</a></h2>
-				<div class="deskripsi">Disini Deskripsi Blog</div>
-			</section>
-		</header>
-		<article>
-			<section class="wrap">
-			<h1 id="page-title">{{ page.title }}</h1>
+		<header class="site-header" id="masthead" role="banner">
+<h1 class="site-title">
+<a class="home-link" href="/" rel="home" title="Edan Eling">Title Blog</a>
+</h1>
+<p class="site-description">Deskripsi Blog</p>
+<nav class="site-navigation">
+<a href="/about">Tentang</a>
+<a href="/arsip">Arsip</a>
+</nav>
+</header>
+<div class="container">
+<div class="content">
+<article class="post">
+<h1 id="page-title">{{ page.title }}</h1>
+<p class="post-meta">
+<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
+<a href="#disqus_thread">Comments</a>
+</p>
+<div class="entry-content">
 			{{ content }}		
-			<time data-icon="6" datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>			
+						
     <div id="disqus_thread"></div>
 <script type="text/javascript">
 var disqus_shortname = 'edaneling';
@@ -41,13 +51,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; var disqus_disable_m
 				<a href="{{page.previous.url}}" class="next" data-icon="2" title="{{page.previous.title}}">Selanjutnya</a>{% endif %}{% if page.next.url %}
 				<a href="{{page.next.url}}" class="prev" data-icon="1" title="{{ page.next.title }}">Sebelumnya</a>{% endif %}
 			</nav>
-			</section>
-		</article>
+			</div>
+</article>
 		<footer>
-			<section class="wrap">
-			<p>Hak Cipta &copy; 2014 <a href="/" title="Edan Eling">{{ site.name }}</a>. Didukung Oleh: <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://pages.github.com/">Github</a></p>
-			</section>
+			
+			<p class="colophon">Hak Cipta &copy; 2014 <a href="/" title="Edan Eling">{{ site.name }}</a>. Didukung Oleh: <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://pages.github.com/">Github</a></p>
+			
 		</footer>
+		</div>
 		<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -58,5 +69,6 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; var disqus_disable_m
   ga('send', 'pageview');
 
 </script>
+</div>
 	</body>
 </html>

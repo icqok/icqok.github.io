@@ -4,8 +4,10 @@ title:
 ---
 
 <h2 id="page-title">Artikel</h2>
-<section id="artikel">
-<ul>{% for post in site.posts %}
-<li><a href="{{ post.url }}"><p data-icon="2" class="list">{{ post.title }}</p><time data-icon="6" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></a></li>{% endfor %}
-</ul>
-</section>
+<div class="container">
+<article>
+			{{ content }}
+			
+			
+		</article>
+		</div>
