@@ -49,7 +49,7 @@ blockquote cite,blockquote small{font-style:normal;font-size:.85em}
 .clearfix:before,.entry-content:before{content:"";display:table}
 .clearfix:after,.entry-content:after{content:"";display:table;clear:both}
 .container{width:45em;margin-left:auto;margin-right:auto;padding:0}
-.colophon{font-size:.875em;color:#444;width:51em;margin:0 auto;}
+.colophon{font-size:.875em;color:#444;}
 .colophon a{color:#444;border-bottom:1px dotted;}
 .colophon a:hover{color:#777}
 .site-header{background:#818181 url(/images/cover.png) no-repeat center;height:25em;-webkit-background-size:cover;background-size:cover;text-align:center;padding-top:9.375em;color:#FFF}
