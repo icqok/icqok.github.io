@@ -3,19 +3,15 @@ layout: default
 title: 
 ---
 
-<h2 id="page-title">Artikel</h2>
+<div class="content home"><article>
 <div class="container">
-<article>
-<h1 id="page-title">{{ page.title }}</h1>
+<h2 class="post-title"><a href="{{ post.url }}">{{ page.title }</a></h2>
 <p class="post-meta">
 <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
 <a href="#disqus_thread">Comments</a>
 </p>
 <div class="entry-content">
-			{{ content }}
-		{% for post in site.posts %}
-			{{ content }}
-			{% endfor %}
-			<div>
-		</article>
-		</div>
+{{ content }}
+</div>
+</div>
+</article></div>
