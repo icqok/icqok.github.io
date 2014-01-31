@@ -5,13 +5,13 @@ title:
 
 <div class="content home"><article>
 <div class="container">
-<h2 class="post-title"><a href="{{ post.url }}">{{ page.title }</a></h2>
-<p class="post-meta">
-<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
-<a href="#disqus_thread">Comments</a>
-</p>
+  <h2 class="post-title"><a href="{{ post.url }}">{{ page.title }</a></h2>
+  <p class="post-meta">
+  <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
+  <a href="#disqus_thread">Comments</a>
+  </p>
 <div class="entry-content">
-{{ content }}
+  {{ content }}
 </div>
 </div>
 </article></div>
