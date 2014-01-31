@@ -115,20 +115,20 @@ footer{padding: 2em 0;background-color:#eeeeee;}
   src: local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
 }
 
-@media (min-width 300625em) {
+@media (min-width: 300625em) {
 h1{font-size:3em}
 h2{font-size:1.875em;line-height:1}
 h3{font-size:1.5em}
 .entry-content{font-size:1.125em;line-height:1.6}
 }
-@media (min-width 48em) {
+@media (min-width: 48em) {
 .container{width:45em;margin-left:auto;margin-right:auto;padding:0}
 .site-header{background-image:url(/images/cover.png);padding-top:9.375em}
 .site-description{font-size:1.25em;margin-top:.5em}
 }
-@media (min-width 21875em) {
+@media (min-width: 21875em) {
 .img-small{max-width:45%}
 }
-@media (min-width 4375em) {
+@media (min-width: 4375em) {
 .img-small{max-width:48%}
 }

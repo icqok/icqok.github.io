@@ -6,8 +6,9 @@ title:
 <h2 id="page-title">Artikel</h2>
 <div class="container">
 <article>
+		{% for post in site.posts %}
 			{{ content }}
-			
+			{% endfor %}
 			
 		</article>
 		</div>
