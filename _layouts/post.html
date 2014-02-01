@@ -18,9 +18,9 @@
 <body>
 	<header class="site-header" id="masthead" role="banner">
 		<h1 class="site-title">
-		<a class="home-link" href="/" rel="home" title="Edan Eling">Title Blog</a>
+		<a class="home-link" href="/" rel="home" title="Edan Eling">{{site.name}}</a>
 		</h1>
-		<p class="site-description">Deskripsi Blog</p>
+		<p class="site-description">Catatan Seekor Lalat Jomblo</p>
 	</header>
 	<div class="container">
 	<div class="content">
@@ -28,7 +28,7 @@
 		<h1 id="page-title">{{ page.title }}</h1>
 		<p class="post-meta">
 		<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
-		<a href="#disqus_thread">Comments</a>
+		<a href="#disqus_thread">Komentar</a>
 		</p>
 	<div class="entry-content">
 		{{ content }}		
@@ -62,9 +62,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; var disqus_disable_m
 
   ga('create', 'UA-47450665-1', 'icqok.github.io');
   ga('send', 'pageview');
-
-</script>
-<script>
+    var disqus_shortname = 'edaneling'; 
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+	
 function apiStatus(data) {
   console.log(data.status);
 }
