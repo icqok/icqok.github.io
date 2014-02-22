@@ -7,7 +7,7 @@ title:
 <div class="container">
 <div class="entry-content">
 <ul>{% for post in site.posts %}
-<li><a href="{{ post.url }}">{{ post.title }}<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></a></li>{% endfor %}
+<li><a href="{{ post.url }}"><p class="list">{{ post.title }}</p><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></a></li>{% endfor %}
 </ul>
 </div>
 </article></div>
