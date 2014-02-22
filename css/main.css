@@ -114,4 +114,7 @@ footer{padding: 2em 0;background-color:#eeeeee;}
   font-weight: 400;
   src: local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
 }
-@media (min-width: 30.0625em){h1{font-size:3em}h2{font-size:1.875em;line-height:1}h3{font-size:1.5em}.entry-content{font-size:1.125em;line-height:1.6}}@media (min-width: 48em){.container{width:45em;margin-left:auto;margin-right:auto;padding:0}.site-header{background-image:url("/images/cover.png");padding-top:9.375em}.site-description{font-size:1.25em;margin-top:0.5em}}@media (min-width: 21.875em){.img-small{max-width:45%}}@media (min-width: 43.75em){.img-small{max-width:48%}}
+@media (min-width: 90.3px){h1{font-size:3em}h2{font-size:1.875em;line-height:1}h3{font-size:1.5em}.entry-content{font-size:1.125em;line-height:1.6}}
+@media (min-width: 1443px){.container{width:45em;margin-left:auto;margin-right:auto;padding:0}.site-header{background-image:url("/images/cover.png");padding-top:9.375em}.site-description{font-size:1.25em;margin-top:0.5em}}
+@media (min-width: 657px){.img-small{max-width:45%}}
+@media (min-width: 1315px){.img-small{max-width:48%}}
