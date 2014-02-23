@@ -71,6 +71,7 @@ article{margin-bottom:3.125em}
 p,li{margin-bottom:1em}
 .post-meta a,.navigation span{color:#aaa}
 #page-title{font-size: 2.5em;font-weight:300; margin-bottom:10px; color: #A7A0A2;line-height:1.2}
+#page-title a:hover{color:#777;}
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
