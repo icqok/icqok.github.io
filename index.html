@@ -10,10 +10,10 @@ title:
 		<div>
 			<h2 id="page-title">{{ page.title }}</h2>
 		<p class="post-meta">
-		<time datetime="{{ page.date | date_to_xmlschema  }}">{{ page.date | date_to_string }}</time>
+		<time datetime="{{ post.date | date_to_xmlschema  }}">{{ post.date | date_to_string }}</time>
 		<a href="#disqus_thread">Komentar</a>
 		</p>
-			{{ post.content }}
+			{{ post.content | strip_html | truncatewords: 50 }}
 		</div>
 		<br>
 	{% endfor %}
