@@ -8,13 +8,12 @@ title:
 <div class="entry-content">
 	{% for post in paginator.posts %}
 		<div>
-			<h2 id="page-title">{{ post.title }}</h2>
+			<a href="{{ post.url }}"><h2 id="page-title">{{ post.title }}</h2></a>
 		<p class="post-meta">
 		<time datetime="{{ post.date | date_to_xmlschema  }}">{{ post.date | date_to_string }}</time>
 		<a href="#disqus_thread">Komentar</a>
 		</p>
 			{{ post.content | strip_html | truncatewords: 50 }}
-			{{ page.summary }}
 		</div>
 		<br>
 	{% endfor %}
