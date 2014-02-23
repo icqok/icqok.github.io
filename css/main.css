@@ -102,11 +102,23 @@ footer{padding: 2em 0;background-color:#eeeeee;}
 .prev{left:0}
 #disqus_thread{margin-top:30px;}
 .gambar, .vidyou, .vidvim{margin-bottom:24px}
-.entry-content ul li{clear:both; line-height:18px; margin-bottom:30px}
-.list{color:#ddd; float:left; line-height:18px; margin-bottom:2px; margin-left:0; margin-right:2px; position:relative;}
-.entry-content ul li time{color:#ddd; float:left; margin-bottom:2px}
-.list, .entry-content ul li time{padding:12px 20px; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
-.list:hover, .entry-content ul li time:hover{background-color: #006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
+.pagination {
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #888;
+}
+
+.pagination a {
+	text-decoration: none;
+	color: #888;
+}
 @font-face {
   font-family: 'PT Sans';
   font-style: normal;

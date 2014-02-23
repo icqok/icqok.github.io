@@ -6,8 +6,29 @@ title:
 <div class="content home"><article>
 <div class="container">
 <div class="entry-content">
-<ul>{% for post in site.posts %}
-<li><a href="{{ post.url }}"><p class="list">{{ post.title }}</p><time datetime="{{ post.date | date_to_xmlschema  }}">{{ post.date | date_to_string }}</time></a></li>{% endfor %}
-</ul>
+	{% for post in paginator.posts %}
+		<div>
+			<h2 id="page-title">{{ page.title }}</h2>
+		<p class="post-meta">
+		<time datetime="{{ page.date | date_to_xmlschema  }}">{{ page.date | date_to_string }}</time>
+		<a href="#disqus_thread">Komentar</a>
+		</p>
+			<p class="post-description">{{ post.content | strip_html | truncatewords: 50 }}</p>
+		</div>
+		<br>
+	{% endfor %}
 </div>
+<nav class="pagination" role="navigation">
+	{% if paginator.next_page %}
+		<a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
+	{% endif %}
+	<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+	{% if paginator.previous_page %}
+		{% if paginator.page == 2 %}
+			<a class="older-posts" href="/">Newer posts &rarr;</a>
+		{% else %}
+			<a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
+		{% endif %}
+	{% endif %}
+</nav>
 </article></div>
