@@ -58,14 +58,14 @@ blockquote cite,blockquote small{font-style:normal;font-size:.85em}
 .site-title{font-family: 'Oswald', sans-serif; font-size:3em; font-weight:700;text-transform:uppercase;margin-bottom:0;text-shadow:0 1px 2px rgba(0,0,0,0.5);letter-spacing:1px}
 .site-description{font-size:1.25em;margin-top:.5em}
 .content{padding-top:3.125em;padding-bottom:3.125em}
-.content.home{padding:0}
-.content.home article{margin-bottom:0;padding-top:3.125em;padding-bottom:3.125em}
+.content-home{padding:0}
+.content-home article{margin-bottom:0;padding-top:3.125em;padding-bottom:3.125em}
 article{margin-bottom:3.125em}
 .post-title{margin-bottom:.25em}
 .post-meta{color:#aaa;margin-bottom:3.125em}
 .post-meta a:before{content:'\2022';padding-right:.3125em;padding-left:.3125em}
 .entry-content{font-size:1.125em;line-height:1.6}
-.entry-content a:hover{border-bottom:1px solid #3aaacf}
+.entry-content a:hover{color:#777;}
 .entry-content h3{margin-top:1.875em}
 .entry-content iframe,.entry-content img{border:3px solid #aaa}
 p,li{margin-bottom:1em}

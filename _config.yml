@@ -2,4 +2,4 @@ name: Edan Eling
 markdown: rdiscount
 pygments: true
 permalink: /:title/
-paginate: 3
+paginate: 1
