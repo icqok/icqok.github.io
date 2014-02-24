@@ -62,8 +62,7 @@ blockquote cite,blockquote small{font-style:normal;font-size:.85em}
 .content-home article{margin-bottom:0;padding-top:3.125em;padding-bottom:3.125em}
 article{margin-bottom:3.125em}
 .post-title{margin-bottom:.25em}
-.post-meta{color:#aaa;margin-bottom:3.125em}
-.post-meta-depan{color:#aaa;}
+.post-meta{color:#aaa;margin-bottom:3em}
 .post-meta a:before{content:'\2022';padding-right:.3125em;padding-left:.3125em}
 .entry-content{font-size:1.125em;line-height:1.6}
 .entry-content a:hover{color:#777;}
